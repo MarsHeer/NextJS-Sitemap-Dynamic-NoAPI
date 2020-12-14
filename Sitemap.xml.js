@@ -2,9 +2,9 @@ import React from 'react';
 
 import { Pages } from '../components/PageList';
 
-var today = new Date();
-var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-var domain = 'https://domain.com/';
+let today = new Date();
+let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+const domain = 'https://domain.com/';
 
 const sitemapXml = () => {
     
